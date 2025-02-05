@@ -1,5 +1,3 @@
-# weather_app
-# weather_app
 # Weather Dashboard - React.js
 
 A weather dashboard built using React.js that fetches real-time weather data from the OpenWeatherMap API. The app allows users to search for a city, view current weather details, and see a 5-day forecast. It also supports unit conversion between Celsius and Fahrenheit.
@@ -32,28 +30,3 @@ A weather dashboard built using React.js that fetches real-time weather data fro
    npm run dev.```
 
 
-
-
----
-
-## **Short Description of Approach**
-
-
-```text
-I approached the assignment by breaking it down into smaller, manageable tasks:
-
-1. **Project Setup**: Used Vite for fast development and installed necessary dependencies like React Query and Styled Components.
-
-2. **API Integration**: Integrated the OpenWeatherMap API to fetch real-time weather data and implemented polling to update the data every 30 seconds.
-
-3. **State Management**: Used React Context API to manage global state for city, unit, weather data, and errors.
-
-4. **URL Persistence**: Instead of using localStorage, I used URL parameters to persist the selected city and unit, making the app state shareable via the URL.
-
-5. **UI Enhancements**: Added a modern, responsive design with weather icons, a loading spinner, and user-friendly error messages.
-
-6. **Bonus Features**: Implemented a 5-day forecast and unit conversion between Celsius and Fahrenheit.
-
-7. **Testing and Debugging**: Tested the app thoroughly to ensure all features work as expected and handled edge cases gracefully.
-
-The app is fully functional, responsive, and ready for review. I hope you find it meets the requirements and demonstrates my skills effectively.
