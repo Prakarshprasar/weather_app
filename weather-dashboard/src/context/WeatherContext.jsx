@@ -11,7 +11,7 @@ export const WeatherProvider = ({ children }) => {
   const [unit, setUnit] = useState("metric"); 
   const [error, setError] = useState("");
 
-  const API_KEY = "249c810e4392108b9588a161f640da8f"; 
+  const API_KEY = import.meta.env.VITE_API_TOKEN; 
   const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather`;
   const FORECAST_URL = `https://api.openweathermap.org/data/2.5/forecast`;
 
@@ -88,7 +88,7 @@ export const WeatherProvider = ({ children }) => {
   }, [city, refetchWeather, refetchForecast]);
 
   // useEffect(() => {
-  //   // const lastCity = localStorage.getItem("lastSearchedCity");
+  //   const lastCity = localStorage.getItem("lastSearchedCity");
   //   if (lastCity) {
   //     setCity(lastCity);
   //   }

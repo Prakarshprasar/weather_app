@@ -65,10 +65,10 @@ const GlobalStyle = createGlobalStyle`
 
   .forecast-item {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     min-width: 170px;
-    background-color: white;
+    background-color: rgba(59, 130, 246, 0.15);
     text-align: left
   }
 
