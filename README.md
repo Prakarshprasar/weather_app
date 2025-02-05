@@ -8,8 +8,7 @@ A weather dashboard built using React.js that fetches real-time weather data fro
 - **5-Day Forecast**: Shows weather predictions for the next 5 days.
 - **Unit Conversion**: Switch between Celsius and Fahrenheit.
 - **Error Handling**: Displays user-friendly error messages for invalid city names or API failures.
-- **URL Persistence**: Saves the selected city and unit in the URL for easy sharing and reloading.
-- **Modern UI**: Responsive design with weather icons and a loading spinner.
+- **Modern UI**: Responsive design with weather icons and a skeleton loaders.
 
 ## Technologies Used
 
