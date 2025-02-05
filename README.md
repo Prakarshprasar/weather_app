@@ -29,14 +29,14 @@ A weather dashboard built using React.js that fetches real-time weather data fro
    cd weather-dashboard
    npm i
    create .env file, and paste your valid api key with name VITE_API_KEY
-   npm run dev
+   npm run dev.```
 
 
 
 
 ---
 
-2. **Short Description of Approach**
+## **Short Description of Approach**
 
 
 ```text
